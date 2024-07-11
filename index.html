@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <title>Actividad Sumativa 4: Caso de Estudio</title>
+</head>
+<body>
+
+    
+<!--MENU DE NAVEGACION (NAVBAR) -->
+    <nav class="navbar navbar-expand-md bg-secondary mt-0 fs-4 fixed-top" id="seccion-inicio">
+
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3" href="#"><i class="bi bi-music-note-beamed"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#carouselExampleIndicators" id="enlance">Imágenes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-articulos">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-redes">Redes Sociales (NEW)</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#seccion-integrantes">Integrantes</a></li>
+                  <li><a class="dropdown-item" href="#seccion-historia">Algo de Historia...</a></li>
+                  <li><a class="dropdown-item" href="#seccion-formulario">Formulario de Contacto</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#seccion-footer">Pie de Página</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- BARRA Y BOTON DE BUSQUEDA-->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+              <button class="btn btn-outline-black me-3 bg-white" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+    
+          </div>
+        </div>
+      </nav>
+
+      <!-- CARRUSEL DE IMAGENES-->
+
+      <div id="carouselExampleIndicators" class="carousel slide mt-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner bg-secondary">
+
+          <div class="carousel-item active" style="max-height: 500px;">
+            <img src="https://mariskalrock.com/wp-content/uploads/2019/07/metallica-directo-nugs.jpg" class="d-block w-50 m-auto" alt="imagen metallica 1">
+          </div>
+          <div class="carousel-item" style="max-height: 500px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/1200px-Metallica_March_2024.jpg" class="d-block w-50 m-auto" alt="imagen metallica 2">
+          </div>
+          <div class="carousel-item" style="max-height: 500px;">
+            <img src="https://www.rockandpop.cl/wp-content/uploads/2023/05/Metallica.jpg" class="d-block w-40 m-auto" alt="metallica imagen 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--4 secciones de información combinando imágenes y texto -->
+      <!-- SECCION 1-->
+      <div class="container bg-secondary text-white" id="seccion-articulos">
+
+        <h2 class="text-center mt-3" id="titulos">Artículos Coleccionables</h2>
+        <div class="row"> 
+            <div class="col"><img src="https://f-rockstore.cl/wp-content/uploads/2023/11/GE-506-1.jpg" style="max-width: 600px;" alt="mini guitarra" class="imagen-zoom"></div>
+
+
+            
+            <div class="col text-center m-auto fs-4 me-2"> Mini Guitarra Estilo James Hetfield - Metallica And Justice For All (Band Logo And Photo Album). Guitarra en miniatura a escala 1:4
+                Tamaño 25 cm. aprox.
+                Con hermosos detalles, fabricada y pintada a mano.
+                
+                Metallica es una de las bandas de metal más exitosas del planeta, con Kirk Hammett como guitarrista principal. La guitarra es un modelo coleccionable del cuarto álbum de la banda …And Justice for All, publicado el 07 de septiembre de 1988.
+                
+                El soporte viene incluido con cada compra de este producto.</div>
+        </div>
+
+        <!-- SECCION 2-->
+
+        <div class="container mt-3">
+            
+            <div class="row">
+
+                <div class="col m-auto"><img src="https://i.ebayimg.com/thumbs/images/g/7RMAAOSwLPVj5n1o/s-l225.jpg" style="min-width: 400px;" alt="modelo camiseta metallica 1" class="imagen-zoom"></div>
+
+                <div class="col m-auto fs-4 text-center">Camisetas Metallica Master Of Puppets Pistas Álbum & Diseños Logo Rock Nueva Negra Oficial</div>
+
+                <div class="col m-auto"><img src="https://i.ebayimg.com/thumbs/images/g/YzMAAOSwFytj5n0A/s-l640.jpg" style="max-width: 400px;" alt="modelo camisa metallica 2" class="imagen-zoom"></div>
+
+
+            </div>
+        </div>
+
+        <!-- SECCION 3-->
+
+        <div class="container mt-5" id="seccion-integrantes">
+
+            <h2 class="text-center mb-4" id="titulos">INTEGRANTES</h2>
+            <div class="row">
+
+                <div class="col"> <img src="https://www.latercera.com/resizer/gRaChUS4FKGPaBCghb6N6NelEXc=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/FDXGVVUX7FB2JKAASWWZ5QVCNA.jpeg" style="max-width: 500px;" class="rounded" alt="JAMES HETFIELD" > <h2 class="text-center mt-4">JAMES HETFIELD</h2> <h3 class="text-center">(Vocalista, Guitarra Rítmica, Piano)</h3>
+                </div>
+
+                <div class="col"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kirk_Hammett_2017.jpg/800px-Kirk_Hammett_2017.jpg" style="max-width: 300px;" class="rounded" alt="KIRK HAMMETT"> <h2 class="text-center mt-4">KIRK HAMMETT</h2> <h3 class="text-center"> (Guitarra Principal, Coros)</h3>
+                </div>
+
+                <div class="col"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Lars_Ulrich_%2826060414430%29.jpg" style="max-width: 300px;" class="rounded" alt="LARS ULRICH"> <h2 class="text-center mt-4">LARS ULRICH</h2> <h3 class="text-center"> (Baterista, Coros)</h3>
+                </div>
+
+                <div class="col"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Robert_Trujillo_2017.jpg" style="max-width: 300px;" class="rounded" alt="ROBERT TRUJILLO"> <h2 class="text-center mt-4">ROBERT TRUJILLO</h2> <h3 class="text-center">(Bajista, Coros)</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--SECCION 4-->
+
+        <div class="container mt-5" id="seccion-historia">
+
+            <div class="row">
+
+                <div class="col">
+                    Metallica es una de las bandas de heavy metal más influyentes y exitosas de la historia del rock. Fue formada en 1981 en Los Ángeles, California, por el guitarrista y vocalista James Hetfield y el baterista Lars Ulrich. Posteriormente, se unieron el guitarrista Kirk Hammett y el bajista Cliff Burton, quien más tarde fue reemplazado por Jason Newsted y luego por Robert Trujillo.
+
+Metallica es conocida por su estilo agresivo y rápido, que combina elementos de heavy metal, thrash metal y hard rock. Su primer álbum, "Kill 'Em All" (1983), estableció un nuevo estándar para el género del thrash metal. Le siguieron otros álbumes emblemáticos como "Ride the Lightning" (1984) y "Master of Puppets" (1986), este último considerado uno de los mejores álbumes de metal de todos los tiempos.
+
+En 1988, lanzaron "...And Justice for All", un álbum complejo y técnicamente avanzado que les ganó su primera nominación al Grammy. Sin embargo, fue su álbum homónimo de 1991, conocido como "The Black Album", el que les dio un éxito comercial masivo. Con canciones como "Enter Sandman" y "Nothing Else Matters", el álbum alcanzó un público mucho más amplio y consolidó a Metallica como una banda dominante en la escena musical.
+
+A lo largo de los años, Metallica ha experimentado con su sonido y ha enfrentado varios desafíos, incluyendo la trágica muerte de Cliff Burton en 1986, problemas internos y cambios de miembros. Sin embargo, han continuado siendo una fuerza constante en la música, lanzando álbumes aclamados como "Death Magnetic" (2008) y "Hardwired... to Self-Destruct" (2016).
+
+Además de su éxito comercial, Metallica ha sido reconocida con numerosos premios, incluyendo varios Grammy, y ha vendido más de 125 millones de discos en todo el mundo. Su influencia en el heavy metal y el rock es incuestionable, y su legado continúa inspirando a nuevas generaciones de músicos y fanáticos.
+                </div>
+
+                <div class="col"><img src="https://st2.depositphotos.com/51060828/50837/v/450/depositphotos_508379064-stock-illustration-cover-design-band-metal-legend.jpg" alt="" class="imagen-zoom"></div>
+
+            </div>
+        </div>
+
+
+        <!--FORMULARIO DE CONTACTO-->
+
+        <div class="container-formulario mt-5" id="seccion-formulario">
+
+            <h2 class="text-center" id="titulos">FORMULARIO DE CONTACTO</h2>
+
+            <div class="row mb-3">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-lg">Nombre y Apellido</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control form-control-lg" id="colFormLabelSm" placeholder="Introduzca su nombre completo">
+                </div>
+              </div>
+
+              <div class="row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Introduzca su email">
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-lg">Mensaje</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control form-control-lg" id="colFormLabelSm" placeholder="Deje su comentario">
+                </div>
+              </div>
+
+              <div class="btn-enviar text-center mt-2" >
+                <button>enviar</button>
+              </div>
+
+    
+                <!--SECCION REDES SOCIALES-->
+                <div class="cont-redes" id="seccion-redes">
+                  <ul id="ul1">
+                    <li id="li1">
+                      <a href="https://www.metallica.com/" target="_blank">
+                        <i class="bi bi-browser-chrome"></i>
+                      </a>
+                    </li>
+                    <li id="li1">
+                      <a href="https://www.facebook.com/Metallica/" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                      </li>
+                    <li id="li1">
+                      <a href="https://www.instagram.com/metallica/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                      
+                    </li>
+                    <li id="li1">
+                      <a href="https://x.com/metallica">
+                        <i class="bi bi-twitter-x"></i>
+                      </a> 
+                    </li>
+                  </ul>
+
+                </div>
+                                  
+              <!-- FOOTER-->
+
+<footer>
+  <div class="container-fluid bg-dark p-5 mt-5 text-center" id="seccion-footer">
+
+    <div class="row">
+      <div class="col"><a href="#" class="text-decoration-none">AUTOR</a></div>
+      <div class="col"><a href="#">REPÚBLICA BOLIVARIANA DE VENEZUELA</a></div>
+      <div class="col"><a href="#" class="text-decoration-none">©2024 UBA. Todos los derechos reservados.  </a></div>
+      
+    </div>
+
+
+    <div class="row">
+      <div class="col"><a href="#" class="text-decoration-none">WALTER MAURICIO RUBIO CARMONA</a></div>
+      <div class="col"><a href="#">UNIVERSIDAD BICENTENARIA DE ARAGUA</a></div>
+      <div class="col"><a href="#" class="text-decoration-none">El contenido de esta página web es propiedad intelectual de sus autores.</a></div>
+
+      
+    </div>
+
+    <div class="row">
+      <div class="col"><a href="#" class="text-decoration-none">C.I 27.353.075</a></div>
+      <div class="col"><a href="">VICERRECTORADO ACADÉMICO</a></div>
+      <div class="col"><a href="#" class="text-decoration-none">Se prohibe la reproduccion total o partcial sin autorización.</a></div> 
+    </div>
+
+  </div>
+</footer>
+        </div>
+      </div>
+
+<!-- Instalar js-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+                    
+</html>
